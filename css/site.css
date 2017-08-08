@@ -1,0 +1,36 @@
+.home .brand-row {
+  background-image: url(../img/home_placeholder.jpg);
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  height: 512px;
+}
+
+.home .name-col {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 25%;
+  vertical-align: middle;
+}
+
+.home .name-col h1 {
+  margin: 0 0;
+  width: 100%;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar {
+  text-align: center;
+}
+
+/* https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
