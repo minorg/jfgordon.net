@@ -1,10 +1,10 @@
 .home .brand-row {
   background-image: url(../img/home_placeholder.jpg);
-  background-position: center; 
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
+  background-size: cover;
   height: 512px;
 }
 
@@ -29,8 +29,14 @@
   text-align: center;
 }
 
+p {
+  font-family: Lora, serif;
+}
+
+
 /* https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
+
 .vertical-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
