@@ -1,11 +1,8 @@
-.home .brand-row {
-  background-image: url(../img/home_placeholder.jpg);
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+.home {
+  background-image: url("file:///Users/jfgordon/Documents/GitHub/www/jfgordon.net/img/landingimage.jpg");
   background-size: cover;
-  height: 512px;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 .home .name-col {
