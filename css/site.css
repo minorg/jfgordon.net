@@ -1,8 +1,18 @@
 .home {
-  background-image: url("file:///Users/jfgordon/Documents/GitHub/www/jfgordon.net/img/landingimage.jpg");
-  background-size: cover;
+  background-image: url("../img/landingimage-1024x768.jpg");
+  background-color: #DADADA;
+  background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
+}
+
+.home .brand-row {
+  background-position: center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
+  height: 768px;
 }
 
 .home .name-col {
