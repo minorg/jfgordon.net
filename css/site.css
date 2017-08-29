@@ -7,22 +7,22 @@
 }
 
 .home .brand-row {
-  background-position: center; 
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
-  height: 768px;
+  background-size: cover;
+  height: 560px;
 }
 
-.home .name-col {
-  background-color: rgba(255, 255, 255, 0.8);
+.home .name-image {
+  background-color: rgba(255, 255, 255, 0.6);
   height: 25%;
   vertical-align: middle;
 }
 
-.home .name-col h1 {
-  margin: 0 0;
+.home .name-link {
+  text-align: center;
   width: 100%;
 }
 
