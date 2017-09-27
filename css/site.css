@@ -1,3 +1,8 @@
+.exhibitions .eco-gallery {
+  height: 425px;
+  width: 650px;
+}
+
 .home {
   background-image: url("../img/landingimage-1024x768.jpg");
   background-color: #D2D2D2;
