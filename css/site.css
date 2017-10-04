@@ -1,3 +1,7 @@
+body {
+  background-image: url("../img/hip-square.png");
+}
+
 .exhibitions .eco-gallery {
   height: 350px;
   width: 550px;
@@ -7,6 +11,7 @@
   height: 350px;
   width: 550px;
 }
+
 .exhibitions .hh-gallery {
   height: 350px;
   width: 550px;
