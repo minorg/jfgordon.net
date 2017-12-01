@@ -79,6 +79,11 @@ p {
   font-family: Lora, serif;
 }
 
+.publications .publication-image {
+  height: 400px;
+  width: 281px;
+}
+
 /* https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
 
 .vertical-center {
