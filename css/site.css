@@ -1,6 +1,4 @@
-body {
-  background-image: url("../img/light_wool_@2X.png");
-}
+
 
 .exhibitions .eco-gallery {
   height: 350px;
@@ -83,6 +81,7 @@ p {
   height: 400px;
   width: 281px;
 }
+
 
 /* https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
 
