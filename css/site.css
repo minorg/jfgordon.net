@@ -1,4 +1,6 @@
-
+.about .img-circle {
+  border-radius: 50%;
+}
 
 .exhibitions .eco-gallery {
   height: 350px;
