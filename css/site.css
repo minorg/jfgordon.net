@@ -73,6 +73,9 @@
 
 .navbar {
   text-align: center;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
 }
 
 p {
