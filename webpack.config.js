@@ -31,6 +31,11 @@ module.exports = {
       }
     ]),
     new HtmlWebpackPlugin({
+      filename: 'contact.html',
+      inject: false,
+      template: 'src/contact.hbs'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'index.html',
       inject: false,
       template: 'src/index.hbs'
