@@ -16,7 +16,7 @@ module.exports = {
     ]
   },
   output: {
-    filename: 'dist/js/output.js',
+    filename: 'js/output.js',
     path: path.join(__dirname, 'dist')
   },
   plugins: [
@@ -32,6 +32,7 @@ module.exports = {
     ]),
     new HtmlWebpackPlugin({
       filename: 'index.html',
+      inject: false,
       template: 'src/index.hbs'
     })
   ],
