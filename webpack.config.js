@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: ['./js/entry.js']
+    app: ['entry.js']
   },
   module: {
     loaders: [
@@ -16,11 +16,11 @@ module.exports = {
     ]
   },
   output: {
-    filename: './js/output.js',
+    filename: 'dist/js/output.js',
     path: path.join(__dirname, 'dist')
   },
   plugins: [
-    new CleanWebpackPlugin(['dist']),
+    // new CleanWebpackPlugin(['dist']),
     new CopyWebpackPlugin([
       {
         from: "src/css/",
