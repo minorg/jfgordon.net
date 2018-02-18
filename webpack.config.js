@@ -26,9 +26,6 @@ module.exports = {
         from: "src/css/",
         to: "css/"
       }, {
-        from: "src/fonts/",
-        to: "fonts/"
-      }, {
         from: "src/img/",
         to: "img/"
       }
