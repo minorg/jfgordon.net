@@ -29,7 +29,11 @@ module.exports = {
         from: "src/img/",
         to: "img/"
       }
-    ]),
+    ]), new HtmlWebpackPlugin({
+      filename: 'about.html',
+      inject: false,
+      template: 'src/about.hbs'
+    }),
     new HtmlWebpackPlugin({
       filename: 'contact.html',
       inject: false,
