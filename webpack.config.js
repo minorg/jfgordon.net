@@ -44,6 +44,11 @@ module.exports = {
       inject: false,
       template: 'src/index.hbs'
     })
+    new HtmlWebpackPlugin({
+      filename: 'childrenswear.html',
+      inject: false,
+      template: 'src/childrenswear.hbs'
+    })
   ],
   resolveLoader: {
     modules: [path.join(__dirname, 'node_modules')]
