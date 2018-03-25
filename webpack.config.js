@@ -50,9 +50,9 @@ module.exports = {
       template: 'src/childrenswear.hbs'
     }),
     new HtmlWebpackPlugin({
-      filename: 'childrenswear.html',
+      filename: 'exhibitions.html',
       inject: false,
-      template: 'src/childrenswear.hbs'
+      template: 'src/exhibitions.hbs'
     })
   ],
   resolveLoader: {
