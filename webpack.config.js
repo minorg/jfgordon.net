@@ -53,6 +53,11 @@ module.exports = {
       filename: 'exhibitions.html',
       inject: false,
       template: 'src/exhibitions.hbs'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'presentations.html',
+      inject: false,
+      template: 'src/presentations.hbs'
     })
   ],
   resolveLoader: {
