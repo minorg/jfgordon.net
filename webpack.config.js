@@ -43,7 +43,7 @@ module.exports = {
       filename: 'index.html',
       inject: false,
       template: 'src/index.hbs'
-    })
+    }),
     new HtmlWebpackPlugin({
       filename: 'childrenswear.html',
       inject: false,
