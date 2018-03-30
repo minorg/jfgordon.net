@@ -1,0 +1,96 @@
+.about .img-circle {
+  border-radius: 50%;
+}
+
+.exhibitions .eco-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.exhibitions .fp-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.exhibitions .hh-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.exhibitions .lilly-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.exhibitions .retro-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.exhibitions .sport-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.exhibitions .ttt-gallery {
+  height: 350px;
+  width: 550px;
+}
+
+.home {
+  background-image: url("../img/landingimage-1024x768.jpg");
+  background-color: #D2D2D2;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home .brand-row {
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 560px;
+}
+
+.home .name-image {
+  background-color: rgba(255, 255, 255, 0.6);
+  height: 25%;
+  vertical-align: middle;
+}
+
+.home .name-link {
+  text-align: center;
+  width: 100%;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar {
+  text-align: center;
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+p {
+  font-family: Lora, serif;
+}
+
+.publications .publication-image {
+  height: 400px;
+  width: 281px;
+}
+
+
+/* https://stackoverflow.com/questions/20547819/vertical-align-with-bootstrap-3 */
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
