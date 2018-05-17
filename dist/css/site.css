@@ -2,37 +2,17 @@
   border-radius: 50%;
 }
 
-.exhibitions .eco-gallery {
-  height: 350px;
+.exhibitions figure {
+  width: 100%;
+}
+
+.exhibitions figcaption {
+  margin-left: auto;
+  margin-right: auto;
   width: 550px;
 }
 
-.exhibitions .fp-gallery {
-  height: 350px;
-  width: 550px;
-}
-
-.exhibitions .hh-gallery {
-  height: 350px;
-  width: 550px;
-}
-
-.exhibitions .lilly-gallery {
-  height: 350px;
-  width: 550px;
-}
-
-.exhibitions .retro-gallery {
-  height: 350px;
-  width: 550px;
-}
-
-.exhibitions .sport-gallery {
-  height: 350px;
-  width: 550px;
-}
-
-.exhibitions .ttt-gallery {
+.exhibitions .figure-img {
   height: 350px;
   width: 550px;
 }
